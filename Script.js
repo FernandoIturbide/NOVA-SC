@@ -12,8 +12,7 @@ const WHATSAPP_NUMBER = "5215584709229";
 // Redes sociales y correo (reemplaza por los reales).
 const SOCIAL = {
   instagram: "https://www.instagram.com/novascmx/",
-  facebook: "https://www.facebook.com/profile.php?id=61561154582775",
-  email: "correo@ejemplo.com"
+  facebook: "https://www.facebook.com/profile.php?id=61561154582775"
 };
 
 // Imágenes de muestra (picsum.photos). Reemplaza cada "img" por la ruta de tu foto real,
@@ -43,8 +42,8 @@ const PRODUCTS = [
   { id: 6,  name: "Vasos de graduación",       category: "eventos",    desc: "Celebra el logro con un detalle personalizado.",        price: "Solicitar cotización", img: "img/VasosGraduacion.jpeg" },
   { id: 7,  name: "Agenda personalizada",      category: "papeleria",  desc: "Agenda con portada y detalles a tu medida.",            price: "Solicitar cotización", img: "img/Agenda1.jpeg" },
   { id: 8,  name: "Libreta personalizada",     category: "papeleria",  desc: "Libreta con tu logo, nombre o ilustración.",            price: "Solicitar cotización", img: "img/LibretaPersonalizada.jpeg" },
-  { id: 9,  name: "Playera personalizada",     category: "textiles",   desc: "Playera con tu diseño, para equipos, eventos o regalo.",price: "Solicitar cotización", img: sample("nova-p9") },
-  { id: 10, name: "Sudadera personalizada",    category: "textiles",   desc: "Sudadera con estampado a tu elección.",                 price: "Solicitar cotización", img: sample("nova-p10") },
+  { id: 9,  name: "Playera personalizada",     category: "textiles",   desc: "Playera con tu diseño, para equipos, eventos o regalo.",price: "Solicitar cotización", img: "img/Playera.jpeg" },
+  { id: 10, name: "Sudadera personalizada",    category: "textiles",   desc: "Sudadera con estampado a tu elección.",                 price: "Solicitar cotización", img: "img/Sudaderas.jpg" },
   { id: 11, name: "Lona publicitaria",         category: "publicidad", desc: "Lona en la medida que necesites para tu negocio.",      price: "Solicitar cotización", img: "img/Lona.jpeg" },
   { id: 12, name: "Vinil decorativo",          category: "publicidad", desc: "Vinil para vitrinas, vehículos o paredes.",             price: "Solicitar cotización", img: "img/Vinil.jpeg" },
   { id: 13, name: "Pluma grabada",             category: "promo",      desc: "Plumas con tu logo o nombre, ideales para empresas.",   price: "Solicitar cotización", img: "img/PlumaGrabado.jpeg" },
@@ -59,14 +58,16 @@ const PRODUCTS = [
 
 // Galería de MUESTRA (no son trabajos reales de NOVA). Reemplaza por tus fotos.
 const GALLERY = [
-  { img: sample("nova-g1", 600, 800), alt: "Imagen de muestra 1" },
-  { img: sample("nova-g2", 600, 450), alt: "Imagen de muestra 2" },
-  { img: sample("nova-g3", 600, 600), alt: "Imagen de muestra 3" },
-  { img: sample("nova-g4", 600, 750), alt: "Imagen de muestra 4" },
-  { img: sample("nova-g5", 600, 450), alt: "Imagen de muestra 5" },
-  { img: sample("nova-g6", 600, 700), alt: "Imagen de muestra 6" },
-  { img: sample("nova-g7", 600, 600), alt: "Imagen de muestra 7" },
-  { img: sample("nova-g8", 600, 480), alt: "Imagen de muestra 8" }
+  { img: "img/Foto1.jpeg", alt: "Imagen de muestra 1" },
+  { img: "img/Foto2.jpeg", alt: "Imagen de muestra 2" },
+  { img: "img/Foto3.jpeg", alt: "Imagen de muestra 3" },
+  { img: "img/Foto4.jpeg", alt: "Imagen de muestra 4" },
+  { img: "img/Foto5.jpeg", alt: "Imagen de muestra 5" },
+  { img: "img/Foto6.jpeg", alt: "Imagen de muestra 6" },
+  { img: "img/Foto7.jpeg", alt: "Imagen de muestra 7" },
+  { img: "img/Foto8.jpeg", alt: "Imagen de muestra 8" },
+  { img: "img/PapelPicado.jpeg", alt: "Imagen de muestra 9" },
+  { img: "img/Foto9.jpeg", alt: "Imagen de muestra 10" },
 ];
 
 /* ---------- 2. WHATSAPP ---------- */
@@ -110,8 +111,6 @@ function initWhatsAppLinks() {
 function initContactLinks() {
   $("#linkInstagram").href = SOCIAL.instagram;
   $("#linkFacebook").href = SOCIAL.facebook;
-  $("#linkEmail").href = `mailto:${SOCIAL.email}`;
-  $("#emailText").textContent = SOCIAL.email;
 }
 
 /* ---------- 6. MENÚ MÓVIL ---------- */
