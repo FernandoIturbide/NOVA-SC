@@ -43,7 +43,7 @@ const PRODUCTS = [
   { id: 7,  name: "Agenda personalizada",      category: "papeleria",  desc: "Agenda con portada y detalles a tu medida.",            price: "Solicitar cotización", img: "img/Agenda1.jpeg" },
   { id: 8,  name: "Libreta personalizada",     category: "papeleria",  desc: "Libreta con tu logo, nombre o ilustración.",            price: "Solicitar cotización", img: "img/LibretaPersonalizada.jpeg" },
   { id: 9,  name: "Playera personalizada",     category: "textiles",   desc: "Playera con tu diseño, para equipos, eventos o regalo.",price: "Solicitar cotización", img: "img/Playera.jpeg" },
-  { id: 10, name: "Sudadera personalizada",    category: "textiles",   desc: "Sudadera con estampado a tu elección.",                 price: "Solicitar cotización", img: "img/Sudaderas.jpg" },
+  { id: 10, name: "Sudadera personalizada",    category: "textiles",   desc: "Sudadera con estampado a tu elección.",                 price: "Solicitar cotización", img: "img/Sudaderas.jpeg" },
   { id: 11, name: "Lona publicitaria",         category: "publicidad", desc: "Lona en la medida que necesites para tu negocio.",      price: "Solicitar cotización", img: "img/Lona.jpeg" },
   { id: 12, name: "Vinil decorativo",          category: "publicidad", desc: "Vinil para vitrinas, vehículos o paredes.",             price: "Solicitar cotización", img: "img/Vinil.jpeg" },
   { id: 13, name: "Pluma grabada",             category: "promo",      desc: "Plumas con tu logo o nombre, ideales para empresas.",   price: "Solicitar cotización", img: "img/PlumaGrabado.jpeg" },
