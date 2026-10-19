@@ -27,7 +27,7 @@ const CATEGORIES = [
   { id: "papeleria",  name: "Papelería",                         desc: "Agendas, libretas y cuadernos a tu estilo.",            img: "img/Papeleria.jpeg" },
   { id: "textiles",   name: "Textiles",                          desc: "Playeras y sudaderas personalizadas.",                  img: "img/Textiles.jpeg" },
   { id: "eventos",    name: "Eventos",                           desc: "Vasos para XV años, bodas, cumpleaños y graduaciones.", img: "img/Eventos.jpeg" },
-  { id: "publicidad", name: "Publicidad",                        desc: "Lonas, vinil y material promocional.",                  img: "img/Volantes.jpeg" },
+  { id: "publicidad", name: "Publicidad",                        desc: "Lonas, vinil y material promocional.",                  img: "img/Lona.jpeg" },
   { id: "promo",      name: "Artículos promocionales",           desc: "Plumas grabadas y otros regalos corporativos.",         img: "img/Promo.jpeg" }
 ];
 
