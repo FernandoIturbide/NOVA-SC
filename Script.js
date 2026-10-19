@@ -28,8 +28,7 @@ const CATEGORIES = [
   { id: "textiles",   name: "Textiles",                          desc: "Playeras y sudaderas personalizadas.",                  img: "img/Textiles.jpeg" },
   { id: "eventos",    name: "Eventos",                           desc: "Vasos para XV años, bodas, cumpleaños y graduaciones.", img: "img/Eventos.jpeg" },
   { id: "publicidad", name: "Publicidad",                        desc: "Lonas, vinil y material promocional.",                  img: "img/Publicidad.jpeg" },
-  { id: "promo",      name: "Artículos promocionales",           desc: "Plumas grabadas y otros regalos corporativos.",         img: "img/Promo.jpeg" },
-  { id: "reconocimientos", name: "Reconocimientos y detalles especiales", desc: "Para celebrar logros y momentos importantes.", img: "img/Reconocimientos.jpeg" }
+  { id: "promo",      name: "Artículos promocionales",           desc: "Plumas grabadas y otros regalos corporativos.",         img: "img/Promo.jpeg" }
 ];
 
 // Productos de DEMOSTRACIÓN. Para agregar uno, copia una línea y cambia sus datos.
@@ -53,7 +52,9 @@ const PRODUCTS = [
   { id: 15, name: "Caja de regalo personalizada", category: "regalos", desc: "Un detalle armado a la medida de la ocasión.",          price: "Solicitar cotización", img: "img/Regalos.jpeg" },
   { id: 16, name: "Papel picado",   category: "eventos", desc: "Papel picado personalizado.",     price: "Solicitar cotización", img: "img/PapelPicado.jpeg" },
   { id: 17, name: "Ofrenda", category: "eventos", desc: "Ofrenda personalizada hecho de MDF", price: "Solicitar cotización", img: "img/Ofrenda.jpeg" },
-  { id: 18, name: "Vaso Shot", category: "eventos", desc: "Vaso para servir shot personalizados para tu evento", price: "Solicitar cotización", img: "img/VasoShots.jpeg" }
+  { id: 18, name: "Vaso Shot", category: "eventos", desc: "Vaso para servir shot personalizados para tu evento", price: "Solicitar cotización", img: "img/VasoShots.jpeg" },
+  {id: 19, name: "Tarjeta de presentacion", category: "promo", desc: "Tarjeta de presentación personalizada", price: "Solicitar cotización", img: "img/TarjetasPresentacion.jpeg" },
+  {id: 20, name: "Volantes", category: "promo", desc: "Volantes personalizados para tu negocio", price: "Solicitar cotización", img: "img/Volantes.jpeg" }
 ];
 
 // Galería de MUESTRA (no son trabajos reales de NOVA). Reemplaza por tus fotos.
